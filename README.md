@@ -26,9 +26,12 @@ This project demonstrates **JWT-based authentication**, **CRUD operations**, and
 
 ## 🎥 Demo Video
 
-<video src="https://github.com/usama-ansarii/Flask-todo-app/main/flaskDemo.webm" controls width="600"></video>
+<video controls width="600">
+  <source src="https://raw.githubusercontent.com/usama-ansarii/Flask-todo-app/main/flaskDemo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
-🎥 [Click here if the video doesn’t load](https://github.com/usama-ansarii/Flask-todo-app/main/flaskDemo.webm)
+🎥 [Click here if the video doesn’t load](https://raw.githubusercontent.com/usama-ansarii/Flask-todo-app/main/flaskDemo.webm)
 
 ---
 
