@@ -26,9 +26,9 @@ This project demonstrates **JWT-based authentication**, **CRUD operations**, and
 
 ## 🎥 Demo Video
 
-<video src="https://github.com/usama-ansarii/nextjs-todo-app/raw/main/Demo.webm" controls width="600"></video>
+<video src="https://github.com/usama-ansarii/Flask-todo-app/blob/main/flaskDemo.webm" controls width="600"></video>
 
-🎥 [Click here if the video doesn’t load](https://github.com/usama-ansarii/nextjs-todo-app/raw/main/Demo.webm)
+🎥 [Click here if the video doesn’t load](https://github.com/usama-ansarii/Flask-todo-app/main/flaskDemo.webm)
 
 ---
 
