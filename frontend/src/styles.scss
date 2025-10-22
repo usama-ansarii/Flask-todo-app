@@ -1,0 +1,310 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f3f6fc;
+  color: #333;
+}
+
+/* Login / Signup */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+  min-height: 80vh;
+
+  .card {
+    background: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    &__title {
+      text-align: center;
+      color: #2563eb;
+      font-weight: 600;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.2rem;
+
+      label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      input {
+        padding: 0.75rem 1rem;
+        border: 1px solid #d1d5db;
+        border-radius: 10px;
+        font-size: 1rem;
+        outline: none;
+        transition: 0.2s ease;
+
+        &:focus {
+          border-color: #2563eb;
+          box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+      }
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      background: #2563eb;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+      }
+    }
+    .bottom-text {
+      text-align: center;
+      margin-top: 1rem;
+      color: #555;
+      font-size: 0.95rem;
+
+      .login-link {
+        color: #2563eb;
+        font-weight: 600;
+        text-decoration: none;
+        margin-left: 0.2rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: #1e40af;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2563eb;
+  padding: 1rem 2rem;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 10px;
+
+    .nav-btn {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+
+      &:hover {
+        background: #fff;
+        color: #2563eb;
+      }
+    }
+
+    .login-btn {
+      background: #fff;
+      color: #2563eb;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background: #e0e7ff;
+      }
+    }
+  }
+}
+
+/* Add Todo Page */
+.add-todo {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 1rem;
+
+  .card {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+
+    &__title {
+      text-align: center;
+      color: #2563eb;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.2rem;
+
+      label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      input,
+      textarea {
+        padding: 0.75rem 1rem;
+        border: 1px solid #d1d5db;
+        border-radius: 10px;
+        font-size: 1rem;
+        outline: none;
+        transition: 0.2s ease;
+
+        &:focus {
+          border-color: #2563eb;
+          box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+      }
+
+      textarea {
+        resize: none;
+      }
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      background: #2563eb;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
+
+/* Todo List Page */
+.todo-list {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 1rem;
+
+  .card {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+
+    &__title {
+      text-align: center;
+      color: #2563eb;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    .no-todo {
+      text-align: center;
+      color: #777;
+    }
+
+    .todo-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      padding: 1rem 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .todo-text {
+        h4 {
+          margin: 0;
+          font-size: 1.1rem;
+          color: #111;
+        }
+        p {
+          margin: 0.3rem 0 0;
+          color: #555;
+        }
+      }
+
+      .todo-actions {
+        display: flex;
+        gap: 0.5rem;
+
+        button {
+          border: none;
+          background: #f1f5f9;
+          padding: 0.5rem 0.8rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: 0.2s ease;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        .edit-btn {
+          color: #2563eb;
+        }
+
+        .delete-btn {
+          color: #dc2626;
+        }
+      }
+    }
+  }
+}
+
+.form-error{
+  color: red;
+  margin-top: 8px;
+  font-size: 16px;
+}
